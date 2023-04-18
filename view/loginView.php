@@ -22,6 +22,7 @@
                     <button type="submit" class="btn btn-primary btn-lg btn-block w-100">Login</button>
                 </div>
             </form>
+            <a href="./contactUs.php" class="text-muted">Contact Us</a>
         </div>
     </div>
 </div>
