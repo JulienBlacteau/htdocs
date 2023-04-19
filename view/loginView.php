@@ -22,10 +22,10 @@
                     <button type="submit" class="btn btn-primary btn-lg btn-block w-100">Login</button>
                 </div>
             </form>
- 
-            <a href="./signOn.php" class="text-white fw-bold text-decoration-none">Sign on</a>
-            <a href="./contactUs.php" class="text-white fw-bold text-decoration-none">Contact Us</a>
-
+            <div class="row justify-content-around mb-3">
+                <a href="view/signon.php" class="col-5 btn btn-primary btn-lg">Sign on</a>
+                <a href="view/contactView.php" class="col-5 btn btn-primary btn-lg">Contact Us</a>
+            </div>
         </div>
     </div>
 </div>
