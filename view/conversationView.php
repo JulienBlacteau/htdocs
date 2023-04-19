@@ -38,6 +38,9 @@
                                 <div class="text-muted fs-6">
                                     <?= $message['created_at'] ?>
                                 </div>
+                                <div class="delete text-white ">
+                                    X
+                                </div>
                             </div>
                             <div class="card-text">
                                 <?= $message['content'] ?>
