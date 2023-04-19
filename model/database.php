@@ -19,11 +19,6 @@ function init_db()
         $password,
         []);
 
-        //$db = new PDO("mysql:host=$host;dbname=$dbname;charset=$charset",
-        //    $user,
-        //    $password,
-        //    [PDO::MYSQL_ATTR_INIT_COMMAND => "SET time_zone = 'Europe/Paris'"]);
-
     } catch (Exception $e) {
         die('Erreur : ' . $e->getMessage());
     }
