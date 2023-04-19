@@ -24,7 +24,8 @@ function login($post)
 
     $email = $post['email'];
     $password = $post['password'];
-    $user_data = User::getUserByCredentials($email, $password);
+    $hiddenpassword = hash('sha256', $password);
+    $user_data = User::getUserByCredentials($email, $hiddenpassword);
 
     if ($user_data == null) {
         $error_msg = "Email ou mot de passe incorrect";
