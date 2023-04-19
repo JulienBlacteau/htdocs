@@ -6,7 +6,7 @@
             <h3>Contact Us !
             </h3>
             <p class="text-muted">What is your request ?</p>
-            <form action="./loginView.php" method="post">
+            <form action="/index.php?action=login" method="post">
                 <div class="mb-3">
                     <label for="category" class="form-label text-muted small text-uppercase">What can we help you with?</label>
                     <select required="required" class="form-control" id="category" name="category">
