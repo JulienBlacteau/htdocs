@@ -48,3 +48,8 @@ function displayFriends($user_id)
     $conversation_list_partial = conversationListPartial($user_id);
     require('view/friendView.php');
 }
+
+function newServer()
+{
+    header('location: view/newServer.php');
+}

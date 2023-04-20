@@ -6,7 +6,7 @@
             <h3>Contact Us !
             </h3>
             <p class="text-muted">What is your request ?</p>
-            <form action="/index.php?action=contact" method="post">
+            <form action="/index.php?action=homepage" method="post">
                 <div class="mb-3">
                     <label for="category" class="form-label text-muted small text-uppercase">What can we help you with?</label>
                     <select required="required" class="form-control" id="category" name="category">
@@ -34,7 +34,7 @@
                 </div>
 
                 <div class="mb-3">
-                    <button type="button" class="btn btn-primary btn-lg btn-block w-100">
+                    <button type="submit" class="btn btn-primary btn-lg btn-block w-100">
                     Submit & Return to the homepage</button>
                 </div>
 

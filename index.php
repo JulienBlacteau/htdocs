@@ -37,12 +37,22 @@ if (isset($_GET['action'])) {
             friendPage();
             break;
 
-        case 'contact':
-            if (!empty($_POST)) {
-                submit($_POST);
-            }
+        //case 'contact':
+            //if (!empty($_POST)) {
+            //    submit($_POST);
+            //}
+            //break;
+    //}
+
+        case 'homepage':
+            homePage();
             break;
+
+        case 'newserver':
+            newServer();
+            break;   
     }
+
 } else {
     $user_id = $_SESSION['user_id'] ?? false;
 

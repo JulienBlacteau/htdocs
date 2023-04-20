@@ -50,3 +50,8 @@ function logout()
 
     header('location: index.php');
 }
+
+function homePage()
+{
+    header('location: view/loginView.php');
+}
