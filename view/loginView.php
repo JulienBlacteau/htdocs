@@ -25,7 +25,7 @@
 
             <div class="mb-3">
                 <a href="view/signOn.php" class="btn btn-primary btn-lg btn-block w-100">Sign on</a>
-                <a href="view/contactUs.php">Contact Us</a>
+                <a class="text-decoration-none text-white" href="view/contactUs.php">Contact Us</a>
             </div>
 
         </div>

@@ -67,6 +67,7 @@
 <script src="/static/js/page_conversation_detail.js"></script>
 
 <?php $content = ob_get_clean(); ?>
+<?php require('search.php'); ?>
 <?php require('logout.php'); ?>
 <?php require('base.php'); ?>
 
