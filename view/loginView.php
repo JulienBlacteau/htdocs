@@ -24,7 +24,7 @@
             </form>
             <div class="row justify-content-around mb-3">
                 <a href="view/signon.php" class="col-5 btn btn-primary btn-lg">Sign on</a>
-                <a href="view/contactView.php" class="col-5 btn btn-primary btn-lg">Contact Us</a>
+                <a href="view/contactUs.php" class="col-5 btn btn-primary btn-lg">Contact Us</a>
             </div>
         </div>
     </div>
