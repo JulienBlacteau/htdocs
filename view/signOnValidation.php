@@ -18,7 +18,7 @@ $pseudo = $_GET['pseudo'];
                 <h3>Welcome on Discoding!</h3>
                 <p>Your pseudo is : <?php echo $pseudo ?></p>
                 <p>Thank you for you registration .</p>
-                <a href="/index.php?action=login" class="btn btn-success">Return to log in</a>
+                <a href="/index.php?action=login" class="btn btn-primary mt-3">Return to login</a>
                 </btn>
             </div>
         </div>
