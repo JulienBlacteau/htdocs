@@ -38,7 +38,7 @@
                                 <div class="text-muted fs-6">
                                     <?= $message['created_at'] ?>
                                 </div>
-                                <div class="delete" style="color:white;margin-left:2%;width:10px;">
+                                <div class="delete text-white fw-bold">
                                 X
                                 </div>
                             </div>
@@ -70,4 +70,3 @@
 <?php require('search.php'); ?>
 <?php require('logout.php'); ?>
 <?php require('base.php'); ?>
-
