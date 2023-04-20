@@ -6,7 +6,7 @@
             <h3>Contact Us !
             </h3>
             <p class="text-muted">What is your request ?</p>
-            <form action="/index.php?action=login" method="post">
+            <form action="/index.php?action=contact" method="post">
                 <div class="mb-3">
                     <label for="category" class="form-label text-muted small text-uppercase">What can we help you with?</label>
                     <select required="required" class="form-control" id="category" name="category">
@@ -38,7 +38,7 @@
                     Submit & Return to the homepage</button>
                 </div>
 
-                <div class="modal fade" id="modalWindow" aria-labelledby="modal exemple" aria-hidden="true">
+                <!--<div class="modal fade" id="modalWindow" aria-labelledby="modal exemple" aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -48,11 +48,11 @@
                                 <p>Your request has been taken into account, we will answer you as soon as possible</p>
                             </div>
                             <div class="modal-footer">
-                                <a href="./loginView.php" class="text-muted">Return to the homepage</a>
+                                <a href="" class="text-muted">Return to the homepage</a>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
 
             </form>
         </div>
