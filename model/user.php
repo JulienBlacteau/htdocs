@@ -157,6 +157,7 @@ class User
 
         return $req->fetch();
     }
+    
 
 
     public static function isAlreadyFriend($user_id, $friend_id)
@@ -197,4 +198,19 @@ class User
 
         return $id;
     }
+    public static function addNewUser($a,$b,$c)
+    {
+        // Open database connection
+        $db = init_db();
+
+        $statement = $db->prepare("INSERT INTO users(users.email, users.username, users.password) VALUES (?,?,?);");
+        $statement->execute([$a,$b,$c]);
+
+        $id = $db->lastInsertId();
+        // Close database connection
+        $db = null;
+
+        return $id;
+    }
+
 }

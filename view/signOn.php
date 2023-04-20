@@ -1,12 +1,13 @@
 <?php ob_start(); ?> 
 
+<!-- login page -->
 <div class="container-fluid d-flex h-100 characterBackground">
     <div class="row align-self-center w-100">
         <div class="col-4 mx-auto auth-container">
             <h3>Hello !
             </h3>
             <p class="text-muted"> Please sign on to join us! </p> 
-            <form action="/index.php?action=signOn" method="post">
+            <form action="/index.php?action=signon" method="post">
                 <div class="mb-3">
                     <label for="pseudo" class="form-label text-muted small text-uppercase">pseudo</label>
                     <input type="text" class="form-control" id="email" name="pseudo"required />

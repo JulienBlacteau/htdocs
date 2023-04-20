@@ -34,25 +34,9 @@
                 </div>
 
                 <div class="mb-3">
-                    <button type="button" class="btn btn-primary btn-lg btn-block w-100" data-bs-toggle="modal" data-bs-target="#modalWindow">
+                    <button type="button" class="btn btn-primary btn-lg btn-block w-100">
                     Submit & Return to the homepage</button>
                 </div>
-
-                <!--<div class="modal fade" id="modalWindow" aria-labelledby="modal exemple" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h3 class="modal-title">Congratulations !</h3>
-                            </div>
-                            <div class="modal-body">
-                                <p>Your request has been taken into account, we will answer you as soon as possible</p>
-                            </div>
-                            <div class="modal-footer">
-                                <a href="" class="text-muted">Return to the homepage</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>-->
 
             </form>
         </div>

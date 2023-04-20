@@ -38,8 +38,8 @@
                                 <div class="text-muted fs-6">
                                     <?= $message['created_at'] ?>
                                 </div>
-                                <div class="delete text-white ">
-                                    X
+                                <div class="delete" style="color:white;margin-left:2%;width:10px;">
+                                X
                                 </div>
                             </div>
                             <div class="card-text">
@@ -68,3 +68,4 @@
 
 <?php $content = ob_get_clean(); ?>
 <?php require('base.php'); ?>
+<?php require('logout.php'); ?>
