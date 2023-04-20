@@ -15,9 +15,9 @@ $pseudo = $_GET['pseudo'];
     <div class="container-fluid d-flex h-100 characterBackground">
         <div class="row align-self-center w-100">
             <div class="col-4 mx-auto auth-container">
-                <h3>Welcome on Discoding!</h3>
-                <p>Your pseudo is : <?php echo $pseudo ?></p>
-                <p>Thank you for you registration .</p>
+                <h3>Congratulations ! <?php echo $pseudo ?></h3>
+                <p>You're a new Discordingator</p>
+                <p>Thanks to join us.</p>
                 <a href="/index.php?action=login" class="btn btn-primary mt-3">Return to login</a>
                 </btn>
             </div>
